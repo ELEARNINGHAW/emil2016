@@ -1,0 +1,101 @@
+/* Custom CSS
+-------------------------*/
+header h1 {	text-align: center; }
+
+.submit1
+{
+  width:65px;
+  height:30px; 
+  position:absolute;
+  top:15px; 
+  left:160px;
+  background-color:#008B95;
+  background-image:url([[pix:theme|black]]);
+  background-repeat: no-repeat;
+}
+ 
+.seachb1
+{
+  -webkit-box-shadow: inset 0px 0px 5px 2px rgba(80, 80, 80, 0.2); /* WebKit */
+  -moz-box-shadow:    inset 0px 0px 5px 2px rgba(80, 80, 80, 0.2); /* Firefox */
+  box-shadow:         inset 0px 0px 5px 2px rgba(80, 80, 80, 0.2); /* Standard */ 
+  padding-left:10px;
+  border: 1px solid #002664;
+  height:14px; 
+  font-size:12px;  
+  font-family:Verdana,sans-serif;
+  color:#000000;
+}
+
+
+.navbar-inner2
+{
+  min-height:40px;
+  padding-right:0px;
+  padding-left:0px;
+  background-image:url([[pix:theme|headerbg]]);
+  background-color:#FAFAFA;
+  background-repeat:repeat-x;
+  border:2px solid #d4d4d4;
+  z-index: 1;
+}
+
+.alloptions 
+{
+  z-index:1;       
+}  
+ 
+
+.fak-navigation{ width:160px; height:20px; top:23px  ; left: 120px; border:0px solid #FFFFFF; position:absolute;  z-index: 2; }
+.edit-navigation{width:40px; height:20px; top:70px; right:80px ; border:0px solid #FFFFFF; background:url(../images/nav-bg.jpg) left repeat-x;position:absolute; z-index: 1;}
+.main-navigation{width:120px; height:20px; top:216px; right:  33px; border:0px solid #FFFFFF; background:url(../images/nav-bg.jpg) left repeat-x;position:absolute; z-index: 1;}
+
+ul.lab{margin:0px;padding:0px; 	z-index:1; }
+li ul.lab{margin:0px;padding:0px; border:#AAAAAA 2px groove;  border-top:#FFF 0px solid;  border-left:#FFF 0px solid;}
+li.lab{	float:left;	font-size:11px;	color:#000000;	height:25px;	display:block;	position:relative;}
+li.lab .hover{	color:#FFFFFF;	text-decoration:none;	position:absolute;	background-color:#497BAC;	top:0;	left:0;	z-index:0;	height:20px;	display:none;}
+li.lab a{	display:block;	color:#000000;	text-decoration:none;	z-index:1000;		position:relative;}
+
+/*subnavi*/
+ul.lab li.lab ul.lab               { width:220px;	position:absolute;	display:none;top:19px	}
+ul.lab li.lab:hover ul.lab         { display:block;	color:#FFFFFF;}
+ul.lab li.lab ul.lab li.lab        { display:block;	width:220px;	 margin:0px;   	color:#FFFFFF;	position:relative;}
+ul.lab li.lab ul.lab li.lab a      { display:block;	color:#FFF;	text-decoration:none;	padding:6px; 	z-index:1;		position:relative;	 }
+ul.lab li.lab ul.lab li.lab a:hover{ color:#000;	background-color:#FFF; border: 1px solid black;}
+.DM { background-color:#008B95; }
+.LS  { background-color:#E98300; }
+.TI  { background-color:#0E905A; }
+.WS  { background-color:#C60C30; }
+
+/*
+.IO  { background-color:#002664; } 
+.IO  { background-color:#234A89; }
+*/
+
+.IO  {
+
+background-color:#ABBADE; 
+
+color:#000;
+}
+
+.block, moodle-actionmenu {
+  background-color:#FFFFFF;
+}
+
+ 
+.usermenu
+{
+ margin-right:40px;
+ margin-top:8px;
+ z-index: 1;
+}
+
+
+
+
+
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
